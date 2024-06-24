@@ -140,7 +140,6 @@ class TrainingLogApp:
 
         tree.pack(expand=True, fill=tk.BOTH)
 
-        # Добавление кнопок для редактирования и удаления записей
         edit_button = ttk.Button(records_window, text="Редактировать", command=lambda: self.edit_record(tree))
         edit_button.pack(side=tk.LEFT, padx=5, pady=5)
 
